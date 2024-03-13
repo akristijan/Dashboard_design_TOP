@@ -1,0 +1,53 @@
+*, ::after, ::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.dashboard {
+    background-color: #a7f3d0;
+    color: #fff;
+}
+
+.header {
+    background-color: #34d399;
+}
+
+.main {
+    background-color: #E2E8F0;
+}
+
+.projects {
+    background-color: #ecfdf5;
+}
+
+.projects-cards {
+    background-color: #fde047;
+}
+
+.card {
+    background-color: #059669;
+}
+
+.announcments {
+    background-color: #bae6fd;
+}
+
+.annoucment {
+    background-color: #f87171;
+}
+
+.trending {
+    background-color: #0284c7;
+}
+
+.trending-items {
+    background-color: #f87171;
+}

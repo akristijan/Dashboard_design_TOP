@@ -1,7 +1,22 @@
+/* CSS */
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
+
 *, ::after, ::before {
     margin: 0;
     box-sizing: border-box;
 }
+
+iconify-icon {
+    display: inline-block;
+    
+    font-size: 1.5rem;
+ }
 
 body {
     padding: 0;
@@ -11,9 +26,12 @@ ul {
     list-style: none;
 }
 
+
 .dashboard {
     background-color: #a7f3d0;
     color: #fff;
+    display: grid;
+    grid-area: 1;
 }
 
 .header {

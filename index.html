@@ -40,16 +40,31 @@
         <!-- HEADER -->
         <header class="header">
             <div class="header-search">
-                <iconify-icon icon="material-symbols:search"></iconify-icon>
-                <input type="search" name="searchTerm" id="site-search">
+                <div class="header-input">
+                    <iconify-icon icon="material-symbols:search"></iconify-icon>
+                    <input type="search" name="searchTerm" class="site-search">
+                </div>
+                <div class="header-info">
+                    <iconify-icon icon="mdi:bell-ring-outline"></iconify-icon>
+                    <img src="./img/deer.jpg" alt="logo-deer" class="avatar">
+                    <p class="header-info-name">Deer Oakley</p>
+                </div>
             </div>
-            <div class="user-info">
-                <iconify-icon icon="mdi:bell-ring-outline"></iconify-icon>
-            </div>
-            <div class="buttons">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+            
+            <div class="header-controls">
+                <div class="header-profile">
+                    <img src="./img/deer.jpg" alt="logo" class="avatar-logo">
+                    <div class="header-profile-info">
+                        <p class="header-greeting">Hi there,</p>
+                        <p class="header-name">Deer Oakley (@deer)</p>
+                    </div>                    
+                </div>
+                <div class="header-btns">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
+                
             </div>
         </header>
         <!-- MAIN CONTENT -->
@@ -132,7 +147,7 @@
             <div class="main-aside">
                 <section class="annoucments">
                     <h3 class="section-title">Annoucments</h3>
-                    <aside class="annoucments-items">
+                    <aside class="annoucments-list">
                         <div class="annoucment">
                             <h4>Site Maintance</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam velit illum!</p>
@@ -149,9 +164,9 @@
                 </section>
                 <section class="trending">
                     <h3 class="section-title">Trending</h3>
-                    <aside class="trening-card">
+                    <aside class="trending-list">
                         <div class="trending-card">
-                            <img src="" alt="avatar">
+                            <img src="./img/fox.jpg" alt="avatar" class="avatar">
                             <div class="avatar-info">
                                 <h5>@tegan</h5>
                                 <p>World Peace Builder</p>
@@ -159,21 +174,21 @@
                             
                         </div>
                         <div class="trending-card">
-                            <img src="" alt="avatar1">
+                            <img src="./img/monkey.jpg" alt="avatar1" class="avatar">
                             <div class="avatar-info">
                                 <h5>@morgan</h5>
                                 <p>Super Cool Project</p>
                             </div>                 
                         </div>
                         <div class="trending-card">
-                            <img src="" alt="avatar2">
+                            <img src="./img/owl.jpg" alt="avatar2" class="avatar">
                             <div class="avatar-info">
                                 <h5>@morgan</h5>
                                 <p>Super Cool Project</p>
                             </div>
                         </div>
                         <div class="trending-card">
-                            <img src="" alt="avatar3">
+                            <img src="./img/dog.jpg" alt="avatar3" class="avatar">
                             <div class="avatar-info">
                                 <h5>@alex</h5>
                                 <p>No Traffice Maker</p>

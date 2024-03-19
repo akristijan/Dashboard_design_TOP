@@ -86,10 +86,11 @@ ul {
 .header {
     padding: 10px 25px 10px 10px;
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: start;
 }
 
 
@@ -203,7 +204,7 @@ ul {
     background-color: #fff;
     border-radius: 5px;
     border-left:7px solid  #F0B429;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)
 }
 
 .card p {
@@ -229,7 +230,7 @@ ul {
     border-radius: 5px;
     gap: 10px;
     background-color: #fff;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)
     
 }
 
@@ -254,7 +255,7 @@ ul {
     background-color: #fff;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .trending-card {
